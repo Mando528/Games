@@ -1,0 +1,40 @@
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+    background-color:#012212;
+}
+
+.container{
+    text-align: center;
+    transform:translate(0%,-2%);
+}
+
+.container .header{
+    color:#fff;
+    font-size:30px;
+    margin-bottom: 50px;
+}
+
+.container .content{
+    background-color:#060614;
+    transform:translate(75%,-5%);
+    width:600px;
+    height: 578px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content .score-board{
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 10%;
+    background-color:#031130;
+    width:80%;
+}
+
+
+
