@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,600;0,800;0,900;1,300;1,600&family=Source+Sans+3:wght@619;635;726&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic-Tac-Toe game</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="label">Tic-Tac-Toe Game</h1>
+        <div class="whose-turn">
+            <p class="player-turn"><span class="x-o">X</span>'s Turn</p>
+        </div>
+        <div class="score-board">
+            <p class="x-score score">X : <span class="xscore"></span></p>
+            <p class="o-score score">O : <span class="oscore"></span></p>
+        </div>
+        <div class="game-board">
+            <div class="field-row">
+                <p class="game-field"> </p>
+                <p class="game-field"> </p>
+                <p class="game-field"> </p>
+            </div>
+            <div class="field-row">
+                <p class="game-field"> </p>
+                <p class="game-field"> </p>
+                <p class="game-field"> </p>
+            </div>
+            <div class="field-row">
+                <p class="game-field"> </p>
+                <p class="game-field"> </p>
+                <p class="game-field"> </p>
+            </div>
+        </div>
+        <button class="reset-btn">Reset</button>
+    </div>
+
+    <div class="winning-message">
+        <p><span class="x-o">X</span> is the winner</p>
+        <button class="play-again">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
